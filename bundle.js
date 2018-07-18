@@ -91,9 +91,20 @@
   !*** ./app.js ***!
   \****************/
 /*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("alert( __webpack_require__(/*! ./people.js */ \"./people.js\") ) \n\n\n//# sourceURL=webpack:///./app.js?");
+
+/***/ }),
+
+/***/ "./people.js":
+/*!*******************!*\
+  !*** ./people.js ***!
+  \*******************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("alert(\"Hello World\")\n\n\n//# sourceURL=webpack:///./app.js?");
+eval("module.exports = \"Hello World!\"\n\n\n//# sourceURL=webpack:///./people.js?");
 
 /***/ })
 
