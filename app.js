@@ -1,7 +1,7 @@
 
 let theBrothers = require('./people.js');
 let $ = require('jquery');
-require('!style-loader!css-loader!./style.css')
+require('./style.css')
 
 $.each(theBrothers, (key, value) => {
 
